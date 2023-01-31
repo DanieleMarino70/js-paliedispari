@@ -83,7 +83,7 @@ buttonOddEl.addEventListener("click", function () {
 
 
 
-//CREO UNA FUNZIONE CHE MI GENERI UN NUMERO RANDOM, FACENDOMI RITORNARE il valore di random.
+//CREO UNA FUNZIONE CHE MI GENERI UN NUMERO RANDOM DA 1 A 5, FACENDOMI RITORNARE il valore di random.
 function generateRandomNum(){
     const random = Math.floor(Math.random() *5 + 1); 
     return random;

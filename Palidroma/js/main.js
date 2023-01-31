@@ -9,9 +9,9 @@ const userWord = prompt("Inserisci una parola");
 
 
 if (isPalindrome(userWord)){
-    console.log("La parola è palindroma");
+    console.log("La parola", userWord ,"è palindroma");
 }else{
-    console.log("La parola non è palindroma");
+    console.log("La parola", userWord,"non è palindroma");
 }
 
 
